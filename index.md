@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Mark W. Gallagher
----
+
 
 # Mark W. Gallagher
 
