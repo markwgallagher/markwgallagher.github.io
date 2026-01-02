@@ -5,38 +5,45 @@ title: Mark W. Gallagher
 
 # Mark W. Gallagher
 
-**Network Operations & Application Performance Engineer**  
-Focused on reliability, observability, and pragmatic automation
+**Senior Infrastructure, Network & Application Performance Engineer**  
+Focused on reliability, observability, and reducing operational friction through pragmatic automation
 
 ---
 
 ## About
 
-I specialize in diagnosing and improving complex networked systems, with experience across enterprise and federal government environments. My work centers on performance, availability, and building small, effective tools that surface operational truth quickly.
+I design, operate, and improve large-scale networked systems that underpin critical enterprise applications. My background spans enterprise and federal environments, with deep experience in application delivery, traffic management, security controls, and hybrid cloud infrastructure.
 
-I’m particularly interested in roles that blend deep technical analysis with architecture, tooling, and operational decision-making.
+Much of my work focuses on understanding how infrastructure and traffic behavior affect application reliability and performance — and then building practical tooling and automation to make those relationships visible and actionable for operators and service owners.
+
+I’m particularly interested in senior or principal-level roles that combine deep technical analysis with architecture, internal tooling, and operational decision-making.
 
 ---
 
 ## Featured Work
 
 ### OK Network
-A lightweight, local network visibility tool that:
-- Discovers hostnames using certificate transparency data
-- Performs RTT and TLS health checks
-- Flags unreachable services and soon-to-expire certificates
+A lightweight local network visibility tool designed to surface application and service health quickly and honestly.
 
-Designed to answer the question: *“What’s actually up right now, and how healthy is it?”*
+Features include:
+- Hostname discovery using certificate transparency data
+- RTT and TLS health checks
+- Detection of unreachable services and soon-to-expire certificates
+
+Built to answer the operational question:  
+*“What’s actually up right now — and how healthy is it?”*
 
 → **Repository:** https://github.com/markwgallagher/ok-network
 
 ---
 
 ### Scripts & Utilities
-A curated collection of small automation and diagnostic tools used for:
+A curated collection of small automation and diagnostic tools used in real operational contexts for:
 - Network and application troubleshooting
-- Repetitive operational tasks
-- Quick data extraction and validation
+- Incident response and validation
+- Repetitive operational tasks and data extraction
+
+These tools emphasize speed, clarity, and correctness over abstraction.
 
 → **Repository:** https://github.com/markwgallagher/scripts
 
@@ -44,7 +51,7 @@ A curated collection of small automation and diagnostic tools used for:
 
 ## Resume & Links
 
-- **Resume (PDF):** https://github.com/markwgallagher/markwgallagher.github.io/raw/main/Mark_Gallagher_Resume.pdf
+- **Resume (PDF):** https://github.com/markwgallagher/markwgallagher.github.io/raw/main/Mark_Gallagher_Senior_Infrastructure_Engineer_Main.pdf
 - **LinkedIn:** https://www.linkedin.com/in/markwgallagher/
 - **GitHub:** https://github.com/markwgallagher
 
@@ -52,9 +59,9 @@ A curated collection of small automation and diagnostic tools used for:
 
 ## Notes on Development Workflow
 
-Code samples emphasize clarity, correctness, and maintainability.  
-Where AI-assisted tooling (e.g., GitHub Copilot) is used, its role is documented transparently alongside manual review and validation.
+Code samples favor explicitness, maintainability, and operational usefulness.  
+Where AI-assisted tooling is used, it supports analysis, documentation, or workflow efficiency and is paired with manual review and validation.
 
 ---
 
-*Last updated: 2025*
+*Last updated: 2026*
