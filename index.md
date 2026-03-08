@@ -1,65 +1,52 @@
----
-
-
 # Mark W. Gallagher
 
-**Senior Infrastructure, Network & Application Performance Engineer**  
-Focused on reliability, observability, and reducing operational friction through pragmatic automation
+**Senior Infrastructure, Network & Security Engineer**  
+F5 BIG-IP | Network Security | SRE | Hybrid Cloud | PKI | Automation
+
+Orlando, FL &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/markwgallagher/) &nbsp;|&nbsp; [Resume](https://github.com/markwgallagher/markwgallagher.github.io/raw/main/Mark_Gallagher_Resume.pdf)
 
 ---
 
-## About
+15+ years designing, securing, and operating enterprise infrastructure. I specialize in application delivery and traffic engineering on F5 BIG-IP platforms, network security policy, PKI/certificate lifecycle management, and hybrid Azure networking. I also build internal tooling that reduces operational friction and MTTR — including production applications and AI-assisted automation.
 
-I design, operate, and improve large-scale networked systems that underpin critical enterprise applications. My background spans enterprise and federal environments, with deep experience in application delivery, traffic management, security controls, and hybrid cloud infrastructure.
-
-Much of my work focuses on understanding how infrastructure and traffic behavior affect application reliability and performance — and then building practical tooling and automation to make those relationships visible and actionable for operators and service owners.
-
-I’m particularly interested in senior or principal-level roles that combine deep technical analysis with architecture, internal tooling, and operational decision-making.
+I tend to be the person on the team who reaches for a packet capture when everyone else is still reading logs.
 
 ---
 
-## Featured Work
+## What I Work On
 
-### OK Network
-A lightweight local network visibility tool designed to surface application and service health quickly and honestly.
+**Application Delivery & Traffic Engineering**  
+F5 BIG-IP LTM, GTM, ASM/AWAF, APM, iRules. Day-to-day service management, fault tolerance design, and L7/TLS troubleshooting. Currently conducting a structured POC evaluating FortiADC against F5 as part of platform roadmap ownership.
 
-Features include:
-- Hostname discovery using certificate transparency data
-- RTT and TLS health checks
-- Detection of unreachable services and soon-to-expire certificates
+**Network Security**  
+Juniper SRX and Security Director, Fortinet FortiGate, PCI-aligned segmentation, zero-trust architecture, firewall policy management.
 
-Built to answer the operational question:  
-*“What’s actually up right now — and how healthy is it?”*
+**PKI & Certificate Lifecycle**  
+End-to-end certificate management including rotation automation. Recently led a full CA vendor migration across all services with under 60 days lead time and zero outages.
 
-→ **Repository:** https://github.com/markwgallagher/ok-network
+**Hybrid Cloud & Data Center**  
+Azure ExpressRoute, VPN Gateway, VNet design. Juniper QFX EVPN/VXLAN multi-site data center operations.
 
----
-
-### Scripts & Utilities
-A curated collection of small automation and diagnostic tools used in real operational contexts for:
-- Network and application troubleshooting
-- Incident response and validation
-- Repetitive operational tasks and data extraction
-
-These tools emphasize speed, clarity, and correctness over abstraction.
-
-→ **Repository:** https://github.com/markwgallagher/scripts
+**Automation & Tooling**  
+Python, Bash, Ansible, Node.js. Built a production Node.js application integrating the F5 BIG-IP REST API to enforce least-privilege configuration access — designed from scratch with a small team using AI-assisted development.
 
 ---
 
-## Resume & Links
+## Projects
 
-- **Resume (PDF):** https://github.com/markwgallagher/markwgallagher.github.io/raw/main/Mark_Gallagher_Senior_Infrastructure_Engineer_Main.pdf
-- **LinkedIn:** https://www.linkedin.com/in/markwgallagher/
-- **GitHub:** https://github.com/markwgallagher
+### [ok-network](https://github.com/markwgallagher/ok-network)
+A lightweight local network visibility tool. Discovers hostnames via certificate transparency data, performs RTT and TLS health checks, and flags unreachable services and soon-to-expire certificates. Answers the question: what is actually up right now, and how healthy is it?
 
----
-
-## Notes on Development Workflow
-
-Code samples favor explicitness, maintainability, and operational usefulness.  
-Where AI-assisted tooling is used, it supports analysis, documentation, or workflow efficiency and is paired with manual review and validation.
+### [scripts](https://github.com/markwgallagher/scripts)
+Operational automation and diagnostic utilities for network troubleshooting, repetitive tasks, and quick data extraction. Built to solve real problems, not to demonstrate concepts.
 
 ---
 
-*Last updated: 2026*
+## Certifications
+
+F5 Certified Administrator (2024) &nbsp;|&nbsp; Juniper JNCIA-JUNOS (2023) &nbsp;|&nbsp; CWNA-107 (2018)  
+Palo Alto PCNSE (2015) &nbsp;|&nbsp; CCNA R&S (2010) &nbsp;|&nbsp; CompTIA Security+ (2009)
+
+---
+
+*Where AI-assisted tooling is used in this work, its role is documented alongside manual review and validation.*
